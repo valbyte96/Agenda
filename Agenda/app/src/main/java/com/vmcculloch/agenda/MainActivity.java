@@ -12,16 +12,41 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //got to calendar
+        ((Button) findViewById(R.id.calButton)).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
 
+                calendar();
+            }
+        });
+        //go to local list
         ((Button) findViewById(R.id.localButton)).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
 
-                go();
+                local();
+            }
+        });
+        //go to settings
+        ((Button) findViewById(R.id.settingsButton)).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                settings();
             }
         });
     }
-    private void go(){
+    private void calendar(){
+        startActivity(new Intent(this, CalActivity.class));
+    }
+
+    private void local(){
         startActivity(new Intent(this, LocalList.class));
     }
+
+    private void settings(){
+        startActivity(new Intent(this, SettingsActivity.class));
+    }
+
 }

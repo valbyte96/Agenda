@@ -28,7 +28,6 @@
             android:layout_height="35dp"
             android:id="@+id/calButton"
             android:textColor="#FFF"
-            android:layout_centerVertical=""
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
@@ -38,11 +37,12 @@
             />
 
 
+
         <Button
-            android:text="Global List"
+            android:text="Local List"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:id="@+id/globalButton"
+            android:id="@+id/localButton"
             android:textColor="#FFF"
             android:layout_below="@+id/calButton"
             android:layout_alignParentRight="true"
@@ -54,12 +54,12 @@
             />
 
         <Button
-            android:text="Local List"
+            android:text="Settings"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
-            android:id="@+id/localButton"
+            android:id="@+id/settingsButton"
             android:textColor="#FFF"
-            android:layout_below="@+id/globalButton"
+            android:layout_below="@+id/localButton"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"

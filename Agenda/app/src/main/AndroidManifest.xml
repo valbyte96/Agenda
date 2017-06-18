@@ -25,6 +25,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.vmcculloch.agenda.MainActivity" />
         </activity>
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".CalActivity"></activity>
     </application>
 
 </manifest>
