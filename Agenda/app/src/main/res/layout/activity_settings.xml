@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:background="@color/background"
     tools:context="com.vmcculloch.agenda.SettingsActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:text="Settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/settingsText"
+        android:textSize="25sp"
+        />
+
+
+    <Switch
+        android:text="Reminders "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/millSwitch" />
+
+    <Switch
+        android:text="Sound Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/millSwitch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/soundSwitch" />
+</RelativeLayout>
