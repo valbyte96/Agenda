@@ -26,7 +26,11 @@
                 android:value="com.vmcculloch.agenda.MainActivity" />
         </activity>
         <activity android:name=".SettingsActivity" />
-        <activity android:name=".CalActivity"></activity>
+        <activity android:name=".CalActivity" />
+        <activity
+            android:name=".TDActivity"
+            android:label="@string/title_activity_td"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void local(){
-        startActivity(new Intent(this, LocalList.class));
+        startActivity(new Intent(this, TDActivity.class));
     }
 
     private void settings(){
