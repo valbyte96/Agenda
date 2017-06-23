@@ -38,6 +38,6 @@
         android:layout_below="@+id/millSwitch"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:textColor="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
         android:id="@+id/soundSwitch" />
 </RelativeLayout>

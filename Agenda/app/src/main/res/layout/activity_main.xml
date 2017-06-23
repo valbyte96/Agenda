@@ -30,6 +30,7 @@
 
         >
 
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,63 +41,109 @@
             android:layout_gravity="center"
             android:layout_alignParentStart="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="70dp"
             android:layout_marginBottom="30dp"
             android:id="@+id/imageView3" />
 
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
-        <Button
-            android:text="Calendar"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:id="@+id/calButton"
-            android:textColor="#FFF"
-            android:background="#d1d1d1"
-            android:layout_marginBottom="7dp"
-
-
-            />
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
 
 
+                >
 
 
-        <Button
-            android:text="Local List"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:id="@+id/localButton"
-            android:textColor="#FFF"
-
-            android:background="#d1d1d1"
-            android:layout_marginBottom="7dp"
+                <Button
+                    android:text="Calendar"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginRight="17dp"
 
 
-            />
 
-        <Button
-            android:text="Global List"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:id="@+id/globalButton"
-            android:textColor="#FFF"
-
-            android:background="#d1d1d1"
-            android:layout_marginBottom="7dp"
+                    android:id="@+id/calButton"
+                    android:textColor="#FFF"
+                    android:background="#ff1f1f"
 
 
-            />
+                    />
 
 
-        <Button
-            android:text="Settings"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:id="@+id/settingsButton"
-            android:textColor="#FFF"
 
-            android:background="#d1d1d1"
-            />
 
+                <Button
+                    android:text="Local List"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/localButton"
+                    android:layout_marginLeft="17dp"
+
+                    android:textColor="#FFF"
+
+                    android:background="#3eda4e"
+
+
+                    />
+
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                >
+
+
+
+                <Button
+                    android:text="Global List"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/globalButton"
+                    android:textColor="#FFF"
+                    android:layout_marginRight="17dp"
+
+
+                    android:background="#40d3fc"
+
+
+                    />
+
+
+                <Button
+                    android:text="Settings"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/settingsButton"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="17dp"
+
+
+                    android:background="#ffe91f"
+                    />
+
+
+                </TableRow>
+
+
+
+
+
+
+
+        </TableLayout>
 
 
     </LinearLayout>
