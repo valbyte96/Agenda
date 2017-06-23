@@ -33,7 +33,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/logo2"
+            app:srcCompat="@drawable/blue"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentLeft="true"
@@ -51,9 +51,12 @@
             android:layout_height="35dp"
             android:id="@+id/calButton"
             android:textColor="#FFF"
-            android:background="#414144"
+            android:background="#d1d1d1"
+            android:layout_marginBottom="7dp"
+
 
             />
+
 
 
 
@@ -64,9 +67,25 @@
             android:id="@+id/localButton"
             android:textColor="#FFF"
 
-            android:background="#66676b"
+            android:background="#d1d1d1"
+            android:layout_marginBottom="7dp"
+
 
             />
+
+        <Button
+            android:text="Global List"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/globalButton"
+            android:textColor="#FFF"
+
+            android:background="#d1d1d1"
+            android:layout_marginBottom="7dp"
+
+
+            />
+
 
         <Button
             android:text="Settings"
@@ -75,8 +94,7 @@
             android:id="@+id/settingsButton"
             android:textColor="#FFF"
 
-            android:background="#97979b"
-
+            android:background="#d1d1d1"
             />
 
 
