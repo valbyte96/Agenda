@@ -114,8 +114,6 @@
                     android:id="@+id/globalButton"
                     android:textColor="#FFF"
                     android:layout_marginRight="17dp"
-
-
                     android:background="#40d3fc"
 
 
