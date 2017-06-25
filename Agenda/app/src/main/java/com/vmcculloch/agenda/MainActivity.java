@@ -28,6 +28,15 @@ public class MainActivity extends AppCompatActivity {
                 local();
             }
         });
+        //go to global list
+        ((Button) findViewById(R.id.globalButton)).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                global();
+            }
+        });
+
         //go to settings
         ((Button) findViewById(R.id.settingsButton)).setOnClickListener(new View.OnClickListener(){
             @Override
@@ -49,4 +58,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, SettingsActivity.class));
     }
 
+    private void global(){
+        startActivity(new Intent(this, GlobalActivity.class));
+    }
 }
