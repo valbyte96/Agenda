@@ -29,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
         android:textColor="@color/colorPrimaryDark"
-        android:id="@+id/millSwitch" />
+        android:id="@+id/reminderSwitch" />
 
     <Switch
         android:text="Sound Off"
